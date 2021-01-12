@@ -312,7 +312,7 @@
     },
     "_artifactsLocation": {
       "type": "string",
-      "defaultValue": "https://github.com/Azure/azure-devtestlab/raw/master/Environments/SharePoint-SingleFarm-FullConfig",
+      "defaultValue": "https://github.com/Azure/azure-devtestlab2/raw/master/Environments/SharePoint-SingleFarm-FullConfig",
       "metadata": {
         "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
       }
