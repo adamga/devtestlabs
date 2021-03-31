@@ -28,7 +28,7 @@ jobs:
       uses: bacongobbler/azure-blob-storage-upload@v1.1.1
       with:
         # The connection string for the storage account
-        connection_string: 'https://anticosti.blob.core.windows.net/ehub?sp=racwdl&st=2021-03-31T17:11:23Z&se=2023-04-01T01:11:23Z&spr=https&sv=2020-02-10&sr=c&sig=RBoOE%2BbxATK%2BbLvnzvhPJdx9Ce40OguBSh5nWUpRC20%3D'
+        connection_string: 'BlobEndpoint=https://anticosti.blob.core.windows.net/;QueueEndpoint=https://anticosti.queue.core.windows.net/;FileEndpoint=https://anticosti.file.core.windows.net/;TableEndpoint=https://anticosti.table.core.windows.net/;SharedAccessSignature=sv=2020-02-10&ss=b&srt=sco&sp=rwdlac&se=2025-04-01T01:23:02Z&st=2021-03-31T17:23:02Z&spr=https&sig=DpYPLBATko1SqslNHTaisNkEGh9xLY1G%2Fid%2FjoW3h3M%3D'
         # The name of the storage account container these assets will be uploaded to
         container_name: 'ehub'
         # The name of the directory you want to upload
